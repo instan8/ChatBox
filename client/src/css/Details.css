@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.details_head{
+   min-height: 100vh;
+    background-color:#9370DB;
+    display: flex;
+    width:100vw;
+}
+.chat_part{
+    width:50vw;
+    min-height: 100vh;
+    background-color: black;
+    position: relative;
+    overflow: visible;
+    overflow-x: hidden;
+}
+.list_part{
+    width: 50vw;
+    min-height: 100vh;
+    background-color: black;
+    border-right: 4px solid #B4C3D5;
+    
+}
+.detail_head{
+    display: flex;
+    justify-content: space-between;
+    background-color:#878D93;
+   translate: 0 0%;
+border: 2px solid black;
+height: 10vh;
+}
+
+.admin_photo_coverUp{
+    width:10%;
+    height: 90%;
+    background-color: black;
+    border-radius: 80%;
+}
+.admin_photo_coverUp img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 80%;
+}
+.details_icons{
+    display: flex;
+    align-items: center;
+}
+.add_form {
+    width: 20vw;
+    position: absolute;
+    left: calc(50% - 20vw);
+    top:2vw;
+
+   height:13vh;
+    z-index: 50;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    justify-content: center;
+    display: none;
+    border:2px solid #9370DB;
+}
+.add_form input{
+    height: 20%;
+    margin-top: 4px;
+    width: 16vw;
+
+}
+.add_form .diver{
+   position: absolute;
+   top:2%;
+   right:14%;
+  text-transform: uppercase; 
+            
+}
+.add_form button{
+    width:8vw;
+    margin-top: 4px;
+    transform: translate(-50%,0);
+    height: 7vh;
+    cursor: pointer;
+    background: rgb(138, 100, 100);
+   
+}
+.add_form button :hover{
+  background: red;
+   
+  }
+
+.close_btn{
+   translate:3px 0;
+   padding-top: 10%;
+}
+
+ .diver :hover{
+cursor:pointer;
+}
+
+
+
+
+.addicon :hover{
+    cursor: pointer;
+}
